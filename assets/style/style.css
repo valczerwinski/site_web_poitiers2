@@ -1,0 +1,38 @@
+.marge{
+    margin : 80px;
+}
+
+
+
+/*Accueil*/
+.accueil {
+  background-image: url(/assets/images/museesaintecroix.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  aspect-ratio: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*photo du musée*/
+
+body {
+  font-family: "Glory", sans-serif;
+}
+
+/* images */
+
+
+.image{ 
+  margin-left: 80px;
+  margin-right: 100px; /*
+  width: 570px;
+  height: 317px;*/
+  border-top-left-radius: 25%;
+  border-bottom-right-radius: 25%;
+}
+

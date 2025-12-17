@@ -1,0 +1,65 @@
+.abril-fatface-regular {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+}
+
+
+.glory{
+  font-family: "Glory", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+}
+
+h1 {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-size: 64px;
+  color: var(--background-color)
+}
+
+h2 {
+  font-family: "Glory", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 35px;
+  color: var(--color);
+}
+
+h3 {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-size: 45px;
+  color: var(--color);
+}
+
+h4 {
+  font-family: "Glory", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-size: 35px;
+  color: var(--color);
+}
+
+h5 {
+  font-family: "Glory", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-size: 24px;
+  color: var(--color);
+}
+
+h6 {
+  font-family: "Glory", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-size: 15px;
+  color: #000000;
+}
+
+p {
+  font-family: "Glory", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-size: 20px;
+  color: #000000;
+}

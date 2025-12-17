@@ -1,0 +1,39 @@
+/*flex*/
+
+
+
+.bloc1{
+    background-color: red;
+}
+
+@media (max-width: 768px){
+    .position-bloc{
+        flex-direction: column;
+    }
+}
+
+.responsive-block{
+    display: flex;
+    flex-direction: row;
+}
+
+.position-bloc div{
+    background-color: black;
+    color: white;
+    margin: 10px;
+}
+
+/*website*/
+.header{
+    border: 2px dashed rgb(145, 37, 37);
+}
+
+.main{
+    border: 2px dashed rgb(37, 145, 63);
+
+}
+/* faire ça .cat-card > img veut dire qu'on cible directement l'élément img qui est enfant de .cat-card */
+.cat-card{
+    display:flex;
+}
+
