@@ -30,7 +30,7 @@
 /*header*/
 
 /* menu déroulant le vrai*/
-/*
+
 nav{
   width: 100%;
   position: sticky;
@@ -155,24 +155,38 @@ header nav ul li ul li:hover {
     background-color: #f0f0f0;
 }
 
-*/
 
-/* second test*/
+/* second test 
 .main-menu .close {
   display: none;
 }
 .main-menu ul {
   display: none;
+  list-style: none;
+  padding: 0px; 
+}
+
+.main-menu a {
+  text-decoration: none;
+}
+
+.main-menu li {
+  display: block;
+  margin-bottom: 10px; 
+}
+.main-menu li a {
+  font-size: 20px; 
 }
 
 /* État ouvert */
-.main-menu:target .close{
+.main-menu:target .close {
   display: block;
 }
-.main-menu:target .open{
+.main-menu:target .open {
   display: none;
 }
-.main-menu:target ul{
+.main-menu:target ul {
   display: block;
-
 }
+
+*/

@@ -3,9 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La présentation par départements</title>
     <link rel="stylesheet" href="/assets/style/reset.css">
     <link rel="stylesheet" href="/assets/style/variables.css">
@@ -23,7 +20,71 @@
     <link href="https://fonts.googleapis.com/css2?family=Glory:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1></h1>
+    <header class="header1"> <!-- avec image logo qui servira de bouton d'accueil sur la gauche-->
+        <a href="/"><img src="/assets/images/logo_museesaintecroix.png" alt="logo musée" width="200"></a>
+        <nav class="taille">
+            <ul>
+                <li class="déroulant"><a>Découvrir &ensp;</a>
+                    <ul class="sous">
+                        <li><a href="/pages/notre_histoire.html">Notre histoire</a></li>
+                        <li><a href="/pages/hypogeedesdunes.html">L’Hypogée des Dunes</a></li>
+                        <li><a href="/pages/collection.html">Les Collections</a></li>
+                        <li><a href="#">Les Expositions passées</a></li>
+                        <li><a href="#">Les Actualités</a></li>
+
+                    </ul>
+                </li>
+                <li class="déroulant"><a>Visiter &ensp;</a>
+                    <ul class="sous">
+                        <li><a href="#">Billeterie</a></li>
+                        <li><a href="#">Information pratiques</a></li>
+                    </ul>
+                </li>
+                <li class="déroulant"><a>Service &ensp;</a>
+                    <ul class="sous">
+                        <li><a href="#">Centre de documentation</a></li>
+                        <li><a href="#">Société des amis des musées 
+                            De Poitiers</a></li>
+                        <li><a href="#">Newsletter</a></li>
+                    </ul>
+                </li>
+            </ul> 
+        </nav>
+        <!--<nav class="main-menu taille" id="menu">
+            <a class="open" href="#menu"> Découvrir</a>
+            <a class="close" href="#">Découvrir</a>
+            </div>
+            <ul id="menu">
+                <li>
+                    <a href=""> Notre histoire</a>
+                </li>
+                <li>
+                    <a href="">L'hypogée des Dunes</a>
+                </li>
+            </ul>
+        </nav>-->
+        <div class="logos_reseaux">
+            <a href="https://www.facebook.com/MuseeSainteCroix.Poitiers/?locale=fr_FR"><img src="/assets/images/facebook-tag vert.svg" alt="logo facebook" width="50px"></a>
+            <a href="https://www.youtube.com/@VilledePoitiers"><img src="/assets/images/youtube vert.svg" alt="logo youtube" width="50px"></a>
+            <a href="https://www.instagram.com/museesaintecroixpoitiers/"><img src="/assets/images/instagram vert.svg" alt="logo instagram" width="50px"></a>
+        </div>
+    </header>
+    <main>
+        <section class="fil-arianne">
+            <img src="/assets/images/file ariane.svg" alt="logo home">
+            <p>bouton</p>
+        </section>
+            <h1>La Présentation par Département</h1>
+            <div>
+                <img src="/assets/images/departement/fleche-gauche.svg" alt="flèche gauche">
+                <img src="/assets/images/departement/fleche-droite.svg" alt="flèche droite">
+                <img src="/assets/images/departement/amphi.jpg" alt="Préhistoire">
+                <img src="/assets/images/departement/truc_de_fer.jpg" alt="Antiquité">
+                <img src="/assets/images/departement/pillier.png" alt="Moyen-Age">
+                <h6>Jean-Claude Golvin, "L’Amphithéâtre de Poitiers",
+Aquarelle (détail), 2007.</h6>
+            </div>
+            
     <footer>
         <div class="footer-top">
             <div>
@@ -60,5 +121,6 @@
             <a href="/pages/politique.html">Politique de Confidentialité</a>
         </div>
     </footer>
+    </main>
 </body>
 </html>
