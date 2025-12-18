@@ -68,5 +68,9 @@
 }
 
 .article h2{
-  
+
+}
+
+.bloc { 
+  word-wrap: break-word;
 }
