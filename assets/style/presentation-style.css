@@ -2,6 +2,7 @@
     margin : 80px;
 }
 
+/* breadcrumb */
 .fil-ariane{
     display: flex;
     justify-content: left;
@@ -54,8 +55,13 @@ div img{
     justify-content: flex-end;
 }
 
-.carr-images {
+.carr-images .slider {
     display: flex;
+    align-items: center;
+    gap: 10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 20px;
 }
 
 .carr-autre {
