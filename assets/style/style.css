@@ -27,12 +27,29 @@ body {
 /* images */
 
 
-.image{ 
+.image-leaf{ 
   margin-left: 80px;
-  margin-right: 100px; /*
-  width: 570px;
-  height: 317px;*/
+  margin-right: 100px;
   border-top-left-radius: 25%;
+  border-top-right-radius: 3%;
+  border-bottom-left-radius: 3%;
   border-bottom-right-radius: 25%;
 }
 
+.image-top-left {
+  margin-left: 80px;
+  margin-right: 100px;
+  border-top-left-radius: 25%;
+  border-top-right-radius: 0%;
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+}
+
+.image-top-right {
+  margin-left: 80px;
+  margin-right: 100px;
+  border-top-left-radius: 0%;
+  border-top-right-radius: 25%;
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+}
