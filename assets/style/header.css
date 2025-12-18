@@ -11,16 +11,16 @@
 }
 
 .header1 ul{
-  list-style: none;
+  list-style: none
 }
 
 .header1 li{
   font-size: 25px;
   display: inline-block;
-  margin-right: 50px;
   color: var(--color);
   font-weight: bold;
 }
+
 
 .logos_reseaux{
   display : flex;
@@ -29,4 +29,150 @@
 }
 /*header*/
 
-/*menu déroulant*/
+/* menu déroulant le vrai*/
+/*
+nav{
+  width: 100%;
+  position: sticky;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    float: left;
+    width: 19%;
+    text-align: left;
+    position: relative;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: var(--color);
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav a:hover{
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid gold;
+}
+
+.sous{
+    display: none;
+    box-shadow: 2px 2px 2px #c7c7c7;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 12px;
+}
+
+.conteneur{
+  margin: 50px 20px;
+  height: 1500px;
+}
+/*menu déroulant
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    position: relative;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+}
+header nav ul li:hover {
+    background-color: #f0f0f0;
+    border-left: 3px solid;
+}
+
+/* Submenu styles 
+header nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+    min-width: 200px;
+    z-index: 1000;
+    border-left: 3px solid;
+}
+
+header nav ul li:hover ul {
+    display: block;
+}
+
+header nav ul li ul li {
+    display: block;
+    margin: 0;
+}
+
+header nav ul li ul li a {
+    padding: 10px 15px;
+    color: #333;
+}
+
+header nav ul li ul li:hover {
+    background-color: #f0f0f0;
+}
+
+*/
+
+/* second test*/
+.main-menu .close {
+  display: none;
+}
+.main-menu ul {
+  display: none;
+}
+
+/* État ouvert */
+.main-menu:target .close{
+  display: block;
+}
+.main-menu:target .open{
+  display: none;
+}
+.main-menu:target ul{
+  display: block;
+
+}

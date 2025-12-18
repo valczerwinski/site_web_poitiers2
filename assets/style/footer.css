@@ -1,8 +1,30 @@
 footer {
     background-color: var(--color);
-    /*border-top-left-radius: 25%;*/
+    border-top-left-radius: 30%;
+    padding-top: 60px;
+}
+.footer-top {
     color: var(--background-color);
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-bot {
+    background-color: #013D0F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-bot p{
+    color: #FBBC04;
+    margin-top: 0px;
 }
 
 footer h2 {
@@ -11,10 +33,21 @@ footer h2 {
 }
 
 footer p {
-    color: var(--background-color)
+    margin-top: 20px;
+    color: var(--background-color);
 }
 
 footer a {
-    color: var(--background-color)
+    color: var(--background-color);
+    display: block;
+}
+.Appleimg{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
+
+footer section {
+    margin-top: 20px;
+}
