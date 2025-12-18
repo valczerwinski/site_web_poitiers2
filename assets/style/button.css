@@ -31,14 +31,13 @@
 .bouton-cta.bouton-cta a:hover{
   color: white;
   background-color: var(--color);
-
 }
 
 .nav-centrale {
   background-color: #F1F1DC;
   display: flex;
   justify-content: center;
-  gap: 200px;   
+  gap: 100px;   
   padding: 50px;
 }
 

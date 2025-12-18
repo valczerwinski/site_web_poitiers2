@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/assets/style/button.css">
     <link rel="stylesheet" href="/assets/style/header.css">
     <link rel="stylesheet" href="/assets/style/footer.css">
+    <link rel="stylesheet" href="/assets/style/presentation-style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +23,7 @@
 <body>
     <header class="header1"> <!-- avec image logo qui servira de bouton d'accueil sur la gauche-->
         <a href="/"><img src="/assets/images/logo_museesaintecroix.png" alt="logo musée" width="200"></a>
-        <nav class="taille">
+        <nav class="main-nav taille">
             <ul>
                 <li class="déroulant"><a>Découvrir &ensp;</a>
                     <ul class="sous">
@@ -69,22 +70,53 @@
             <a href="https://www.instagram.com/museesaintecroixpoitiers/"><img src="/assets/images/instagram vert.svg" alt="logo instagram" width="50px"></a>
         </div>
     </header>
-    <main>
-        <section class="fil-arianne">
-            <img src="/assets/images/file ariane.svg" alt="logo home">
-            <p>bouton</p>
+    <main class="marge">
+        <section class="fil-ariane">
+            <a href="/index.html"><img src="/assets/images/file ariane.svg"></a>
+            <nav>
+                <ul>
+                    <li><a href="#">Découvir</a></li>
+                    <li>/</li>
+                    <li><a href="/pages/collection.html">Collection</a></li>
+                    <li>/</li>
+                    <li><a href="/pages/presentation.html">Présenatation par Département</a></li>
+                </ul>
+            </nav>
         </section>
-            <h1>La Présentation par Département</h1>
-            <div>
+        <h1>La Présentation par Département</h1>
+        <div>
+            <section class="carr-fleches">
                 <img src="/assets/images/departement/fleche-gauche.svg" alt="flèche gauche">
                 <img src="/assets/images/departement/fleche-droite.svg" alt="flèche droite">
-                <img src="/assets/images/departement/amphi.jpg" alt="Préhistoire">
-                <img src="/assets/images/departement/truc_de_fer.jpg" alt="Antiquité">
-                <img src="/assets/images/departement/pillier.png" alt="Moyen-Age">
-                <h6>Jean-Claude Golvin, "L’Amphithéâtre de Poitiers",
-Aquarelle (détail), 2007.</h6>
-            </div>
-            
+            </section>
+            <section class="carr-images">
+                <figure>
+                    <img src="/assets/images/departement/amphi.jpg" alt="Préhistoire">
+                    <figcaption><h6>Jean-Claude Golvin, "L’Amphithéâtre de Poitiers",
+                        Aquarelle (détail), 2007.</h6></figcaption>
+                </figure>
+                <img class="carr-autre" src="/assets/images/departement/truc_de_fer.jpg" alt="Antiquité">
+                <img class="carr-autre" src="/assets/images/departement/pillier.png" alt="Moyen-Age">
+            </section>
+        </div>
+        <h2>L’ANTIQUITÉ GALLO-ROMAINE (1er S. AV. J.-C. – 5e S.)</h2>
+        <article class="tresor">
+            <img src="/assets/images/departement/pièce_fer.png" alt="trésor de Chevanceaux">
+            <p>Présentées autour des vestiges gallo-romains mis au jour lors de la construction du musée, 
+            de riches collections antiques témoignent du passé prestigieux de Limonum, nom antique de Poitiers. <br>
+            Le trésor de Chevanceaux rappelle que les Pictons (un des peuples de Gaule) frappèrent monnaie, 
+            avant que ne s’impose le monnayage des empereurs. Des offrandes déposées dans une tombe d’Antran évoquent 
+            la romanisation du Poitou dès l’époque d’Auguste.
+            </p>
+        </article>
+        <article class="athena">
+            <img src="/assets/images/departement/statueathena.png" alt="statue Athéna de Poitiers">
+            <p>La riche collection lapidaire d’où se détache la statue de marbre d’Athéna, d’inspiration grecque, 
+            née des mains d’un artiste de Rome à l’époque augustéenne, renvoie à l’apogée de la capitale pictonne. 
+            La verrerie tient une belle place au sein des collections, issue pour l’essentiel de la nécropole des Dunes.
+            </p>
+        </article>
+    </main>
     <footer>
         <div class="footer-top">
             <div>
@@ -121,6 +153,5 @@ Aquarelle (détail), 2007.</h6>
             <a href="/pages/politique.html">Politique de Confidentialité</a>
         </div>
     </footer>
-    </main>
 </body>
 </html>

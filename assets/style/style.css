@@ -1,13 +1,13 @@
 .marge{
     margin : 80px;
 }
-/*
+
 html, body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
 }
-*/
+
 /*Accueil*/
 .accueil {
   background-image: url(/assets/images/museesaintecroix.webp);
@@ -42,7 +42,7 @@ body {
 }
 
 .image-top-left {
-  margin-left: 80px;
+  margin-left: 100px;
   margin-right: 0px;
   border-top-left-radius: 25%;
   border-top-right-radius: 0%;

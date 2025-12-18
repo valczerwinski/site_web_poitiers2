@@ -11,12 +11,13 @@
 }
 
 .header1 ul{
-  list-style: none
+  list-style: none;
+  display: flex;
+  gap: 50px;
 }
 
 .header1 li{
   font-size: 25px;
-  display: inline-block;
   color: var(--color);
   font-weight: bold;
 }
@@ -31,29 +32,28 @@
 
 /* menu déroulant le vrai*/
 
-nav{
+nav.main-nav{
   width: 100%;
   position: sticky;
 }
 
-nav ul{
+nav.main-nav ul{
     list-style-type: none;
+    
 }
 
-nav ul li{
-    float: left;
-    width: 19%;
+nav.main-nav ul li{
     text-align: left;
     position: relative;
 }
 
-nav ul::after{
+nav.main-nav ul::after{
     content: "";
     display: table;
     clear: both;
 }
 
-nav a{
+nav.main-nav a{
     display: block;
     text-decoration: none;
     color: var(--color);
@@ -61,36 +61,36 @@ nav a{
     padding: 10px 0px;
 }
 
-nav a:hover{
+nav.main-nav a:hover{
     color: rgb(0, 0, 0);
     border-bottom: 2px solid gold;
 }
 
-.sous{
+.main-nav .sous{
     display: none;
     box-shadow: 2px 2px 2px #c7c7c7;
     background-color: white;
     position: absolute;
-    width: 100%;
+    width: 300%;
     z-index: 1000;
 }
-nav > ul li:hover .sous{
+nav.main-nav > ul li:hover .sous{
     display: block;
 }
-.sous li{
+.main-nav .sous li{
     float: none;
     width: 100%;
     text-align: left;
 }
-.sous a{
+.main-nav .sous a{
     padding: 10px;
     border-bottom: none;
 }
-.sous a:hover{
+.main-nav .sous a:hover{
     border-bottom: none;
     background-color: RGBa(200,200,200,0.1);
 }
-.deroulant > a::after{
+.main-nav .deroulant > a::after{
     content:" ▼";
     font-size: 12px;
 }
