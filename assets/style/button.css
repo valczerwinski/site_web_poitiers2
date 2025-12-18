@@ -34,6 +34,13 @@
   padding: 50px;
 }
 
+.billet{
+  
+
+
+}
+
+
 .nav-centrale a {
   color : black;
   text-decoration: underline;
@@ -42,8 +49,8 @@
 }
 
 .nav-centrale.nav-centrale a:hover{
-  color: yellowgreen;
   text-decoration: underline;
+  color: var()
 }
 
 
@@ -61,16 +68,20 @@
 .mise_en_page_bio p{
   font-style: italic;
 }
-
+/*section exposition en cours*/
 .article{
   display: flex;
   justify-content: center;
 }
 
-.article h2{
-
+.image-top-left{
+  order: 2;
 }
 
-.bloc { 
-  word-wrap: break-word;
+.article h5{
+  margin-bottom: 20px;
+
+}
+.article p{
+  margin-top: 20px;
 }

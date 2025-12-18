@@ -2,6 +2,7 @@ footer {
     background-color: var(--color);
     /*border-top-left-radius: 25%;*/
     color: var(--background-color);
+    display: flex;
 }
 
 footer h2 {
@@ -16,3 +17,4 @@ footer p {
 footer a {
     color: var(--background-color)
 }
+

@@ -38,7 +38,7 @@ body {
 
 .image-top-left {
   margin-left: 80px;
-  margin-right: 100px;
+  margin-right: 0px;
   border-top-left-radius: 25%;
   border-top-right-radius: 0%;
   border-bottom-left-radius: 0%;
@@ -47,9 +47,22 @@ body {
 
 .image-top-right {
   margin-left: 80px;
-  margin-right: 100px;
+  margin-right: 0px;
   border-top-left-radius: 0%;
   border-top-right-radius: 25%;
   border-bottom-left-radius: 0%;
   border-bottom-right-radius: 0%;
+}
+
+/* .block-presentation .container {
+  display: flex;
+  gap: 50px
+  
+}
+
+
+@media screen and (max-width: 1080px) {
+  .block-presentation .container {
+    
+  }
 }
