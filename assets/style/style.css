@@ -53,6 +53,7 @@ body {
 }
 
 .image-top-left {
+  gap: 60px;
   border-top-left-radius: 25%;
   border-top-right-radius: 0%;
   border-bottom-left-radius: 0%;
@@ -60,6 +61,7 @@ body {
 }
 
 .image-top-right {
+  gap: 60px;
   border-top-left-radius: 0%;
   border-top-right-radius: 25%;
   border-bottom-left-radius: 0%;

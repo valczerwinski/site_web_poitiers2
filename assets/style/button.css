@@ -94,17 +94,6 @@
   }
   .mise_en_page_bio p {
     font-size: 16px;
-  
-}
-
-@media screen and (max-width: 1080px) {
-  .bouton-cta{
-    flex-direction: column;
-    gap: 0px;
-    margin-bottom: 10px;
-  }
-  .nav-centrale{
-    display: none;
   }
 }
 
@@ -117,7 +106,7 @@
 
 .legende{
   display: flex;
-  margin-left: 0px;
+  margin-left: 80px;
   text-align: right;
 }
 
@@ -128,6 +117,10 @@
 .article p{
   margin-top: 20px;
 }
+
+
+
+
 
 @media screen and (max-width: 1080px) {
   main h3 {
@@ -147,6 +140,7 @@
     font-size: 15px;
   }
   .article h6{
+    margin: 0px;
     font-size: 12px;
   }
   .article p{
@@ -156,4 +150,30 @@
     order:3;
   }
 }
+
+@media screen and (max-width: 1080px) {
+  .mise_en_page_bio{
+    flex-direction: column;
+    gap: 40px;
+  }
+  .mise_en_page_bio img {
+    width: 100%
+  }
+  .mise_en_page_bio h2 {
+    font-size: 20px;
+  }
+  .mise_en_page_bio p {
+    font-size: 16px;
+  
+}}
+
+@media screen and (max-width: 1080px) {
+  .bouton-cta{
+    flex-direction: column;
+    gap: 0px;
+    margin-bottom: 10px;
+  }
+  .nav-centrale{
+    display: none;
+  }
 }
