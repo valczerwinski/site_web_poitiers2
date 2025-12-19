@@ -110,6 +110,12 @@ nav.main-nav > ul li:hover .sous{
   .logos_reseaux{
     display: none;
   }
+  nav.main-nav > ul li:hover .sous{
+    right: 0px;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
 }
 
 

@@ -2,6 +2,10 @@
     margin : 80px;
 }
 
+@media screen and (max-width: 1080px){
+.marge {
+    margin: 30px;
+}}
 
 /* breadcrumb */
 .fil-ariane{
@@ -9,10 +13,6 @@
     justify-content: left;
 }
 
-@media screen and (max-width: 1080px){
-.fil-ariane nav{
-
-}}
 
 .fil-ariane nav{
     padding-left: 10px;
@@ -40,7 +40,6 @@
     text-decoration: none;
 }
 
-
 h1{
     color: var(--color);
     display: flex;
@@ -49,11 +48,7 @@ h1{
     margin-bottom: 30px;
 }
 
-@media screen and (max-width: 1080px){
-.h1 {
-   margin-top: 50px;
-   margin-bottom: 15px;
-}}
+
 
 main div img{
     border-top-left-radius: 25%;
@@ -93,11 +88,13 @@ article{
     justify-content: center;
     align-items: center;
     margin-bottom: 100px;
+    gap: 100px;
 }
 
 
 .tresor img{
-    margin-right: 100px;
+    max-width: 470px;
+    width: 30%;
     border-top-left-radius: 25%;
     border-top-right-radius: 3%;
     border-bottom-left-radius: 3%;
@@ -105,7 +102,8 @@ article{
 }
 
 .athena img{
-    margin-left: 100px;
+    max-width: 370px;
+    width: 30%;
     border-top-left-radius: 25%;
     border-top-right-radius: 3%;
     border-bottom-left-radius: 3%;
@@ -124,4 +122,31 @@ main article img, main div img{
 
 .athena img{
     order: 2;
+}
+
+@media screen and (max-width: 1080px){
+    h1 {
+        font-size: 40px;
+        text-align: center;
+
+    }
+    h2 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .order-mobile {
+    order:3;
+    }
+    article{
+        flex-direction: column;
+        gap: 40px
+    }
+    .athena img{
+        width: 100%
+    }
+    .tresor img{
+        width: 100%
+    }
 }

@@ -94,12 +94,18 @@
   }
   .mise_en_page_bio p {
     font-size: 16px;
-  }
+  
+}
+
+@media screen and (max-width: 1080px) {
   .bouton-cta{
     flex-direction: column;
     gap: 0px;
+    margin-bottom: 10px;
   }
-  
+  .nav-centrale{
+    display: none;
+  }
 }
 
 /*section exposition en cours*/
@@ -146,6 +152,8 @@
   .article p{
     font-size: 16px;
   }
+  .order-mobile {
+    order:3;
+  }
 }
-
-
+}
