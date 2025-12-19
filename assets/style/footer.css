@@ -1,4 +1,4 @@
-footer {
+footer{
  
     flex-direction: column;
     background-color: var(--color);
@@ -55,15 +55,17 @@ footer section {
 }
 
 @media screen and (max-width: 1080px){
-.footer-top {
-   flex-direction: column ;
-   border-top-left-radius: none;
-
-}
+    .footer-top {
+        flex-direction: column ;
+    }
+    footer{
+        border-top-left-radius: 0%;
+    }
 }
 
 @media screen and (max-width: 1080px){
     .footer-bot {
-        flex-direction: column ;
+        flex-direction: row ;
+        align-items: center;
     }
 }

@@ -95,6 +95,11 @@
   .mise_en_page_bio p {
     font-size: 16px;
   }
+  .bouton-cta{
+    flex-direction: column;
+    gap: 0px;
+  }
+  
 }
 
 /*section exposition en cours*/
@@ -106,7 +111,7 @@
 
 .legende{
   display: flex;
-  margin-left: 80px;
+  margin-left: 0px;
   text-align: right;
 }
 
@@ -119,9 +124,27 @@
 }
 
 @media screen and (max-width: 1080px) {
+  main h3 {
+    font-size: 32px;
+  }
   .article {
     flex-direction: column;
     gap: 40px
+  }
+  .article h2{
+    font-size: 24px;
+  }
+  .article h4{
+    font-size: 20px;
+  }
+  .article h5{
+    font-size: 15px;
+  }
+  .article h6{
+    font-size: 12px;
+  }
+  .article p{
+    font-size: 16px;
   }
 }
 
