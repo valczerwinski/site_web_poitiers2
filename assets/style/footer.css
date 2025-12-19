@@ -1,4 +1,6 @@
 footer {
+ 
+    flex-direction: column;
     background-color: var(--color);
     border-top-left-radius: 30%;
     padding-top: 60px;
@@ -50,4 +52,18 @@ footer a {
 
 footer section {
     margin-top: 20px;
+}
+
+@media screen and (max-width: 1080px){
+.footer-top {
+   flex-direction: column ;
+   border-top-left-radius: none;
+
+}
+}
+
+@media screen and (max-width: 1080px){
+    .footer-bot {
+        flex-direction: column ;
+    }
 }

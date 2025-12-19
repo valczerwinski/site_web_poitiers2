@@ -45,7 +45,6 @@
 
 .nav-centrale a {
   color : var(--color);
-  text-decoration: ;
   font-weight: bold;
   font-size: 25px;
 }
@@ -59,11 +58,13 @@
 
 .mise_en_page_bio{
   display: flex;
+  gap: 80px;
 }
 
 .mise_en_page_bio img{
-  width: 600px;
-  height: 400px;
+  max-width: 600px;
+  width: 30%;
+  /* max-height: 400px; */
 }
 
 .mise_en_page_bio h2{
@@ -73,11 +74,34 @@
 .mise_en_page_bio p{
   font-style: italic;
 }
+/*
+.container {
+  display: flex;
+  gap: 50px
+  
+}*/
+
+@media screen and (max-width: 1080px) {
+  .mise_en_page_bio{
+    flex-direction: column;
+    gap: 40px;
+  }
+  .mise_en_page_bio img {
+    width: 100%
+  }
+  .mise_en_page_bio h2 {
+    font-size: 20px;
+  }
+  .mise_en_page_bio p {
+    font-size: 16px;
+  }
+}
+
 /*section exposition en cours*/
 .article{
   display: flex;
   justify-content: center;
-  margin-bottom: 100px;
+  gap: 100px;
 }
 
 .legende{
@@ -93,3 +117,12 @@
 .article p{
   margin-top: 20px;
 }
+
+@media screen and (max-width: 1080px) {
+  .article {
+    flex-direction: column;
+    gap: 40px
+  }
+}
+
+
